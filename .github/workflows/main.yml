@@ -48,7 +48,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: 12Qe32d2e
-          password: 1q2w3e4r5t/
+          password: 1q2w3e4r5t/.
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
@@ -68,7 +68,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: 12Qe32d2e
-          password: 1q2w3e4r5t/
+          password: 1q2w3e4r5t/.
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
